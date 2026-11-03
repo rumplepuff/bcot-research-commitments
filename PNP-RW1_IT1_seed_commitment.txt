@@ -1,0 +1,17 @@
+PNP-RW1 H2-only - IT1 seed commitment (BCOT Innovations research record)
+
+Study: PNP-RW1, H2-only, internal-evidence track IT1.
+Label: Internally verified under team custody (PNP-RW1 IT1). Not externally certified.
+This record contains hashes only. The seed itself is withheld until after beacon round 33706040.
+
+IT1 designation SHA-256: 118f04be552be506e83334bdb141970ac7b35ba1e872a3390e8aa4fdbfd773d0
+FREEZE-ID runner=237bba3d6f227afeea00f6ee820d07837dcaf898b1ec7511d71d064ff5cb0f26 analysis=0f892c66a759601d0e704a2a7e78ff43858fbd754d8b3434fd8a342cddc41d6f lineage=4e31f1b09f374ec56698c24478894fc241eb519879b76ceb7cbcad16a463c308 verifier=8e089bc1000dc8a17f7c4c8328a8458592ef5ab16feb7a162cad3f3351ac0321 reconstruction=45be7e1197a245947ece11d69e55bd351a813668a3d85ab056604f37480bded2 amendment=ed8f37795c5c1f7c02bd8e34ecd25a20d1ece6893f9930c4f42bbac438245cbb
+FREEZE-MANIFEST sha256=ddf58bb8d972252f280a57727fb9ac90465208b1d8f34006e37f57175d6e1ba0 file=freeze/FREEZE_MANIFEST.txt
+LOG-PREFIX bytes=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+SEED-COMMIT sha256=e09efc1879936bddb3e988875c392fd51963401ae83f05f052201cd7cde037d4 beacon_chain=52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971 beacon_round=33706040 committed_utc=2026-11-02T23:31:24Z
+
+Beacon: drand quicknet, chain 52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971,
+round 33706040, fixed by rule (first round at or after committed_utc + 72 h), not chosen.
+
+Effective master = SHA-256("PNPRW1|CONF-MASTER|<seed>|<chain>|33706040|<randomness>")[:8] >> 1 (A2r4 A2.8').
+One commitment per freeze. Every outcome will be reported (IT1 section 6).
